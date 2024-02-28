@@ -27,21 +27,9 @@ function App() {
     <div>
       <Header/>
       <RouterProvider router={appRouter}/>
-      <Body/>
     </div>
     </Provider>
   );
 }
 
 export default App;
-
-/*
-Head
-Body
- Sidebar
-  MenuItems
- MainContainer
-  ButtonList
-  VedioContainer
-    VedioCard
-*/
